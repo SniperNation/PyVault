@@ -38,6 +38,9 @@ if not hashed_passwords:
     conn.commit()
 
 def check_password():
+    print("=" * 52)
+    print("||{:^48}||".format("PyVault"))
+    print("=" * 52)
     # Prompt the user to enter the master password
     master_password = input('Enter master password: ')
     
